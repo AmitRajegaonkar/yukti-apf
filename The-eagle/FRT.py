@@ -82,7 +82,7 @@ def video_detection(path_x, camera_no):
     device = torch.device('cuda')
     model.to(device)
 
-    classNames = ['Rifle', 'Hand Gun', 'Knife', 'Weapon', 'Test', 'Detecting', 'Gun']
+    classNames = ["Gun", "Knife", "Pistol", "Handgun", "Rifle"]
     weapon_detected = False
 
     while True:
