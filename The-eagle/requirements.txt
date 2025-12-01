@@ -1,0 +1,9 @@
+ultralytics
+opencv-python
+torch
+torchvision
+pygame
+Flask
+Flask-WTF
+python-dotenv
+requests
